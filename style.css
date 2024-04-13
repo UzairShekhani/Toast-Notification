@@ -51,7 +51,7 @@ body{
 .toast i{
     margin: 0 20px;
     font-size: 35px;
-    color: green;
+    color: blue;
 
 }
 .toast.error i{
@@ -76,7 +76,7 @@ body{
     }
 }
 .toast.error::after{
-    background: red;
+    /* background: red; */
 }
 .toast.invalid::after{
     background: orange;
